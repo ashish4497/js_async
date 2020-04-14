@@ -84,14 +84,13 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -106,73 +105,107 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: "";
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 
 /* Main Hero */
 
 body {
-    margin: 0 auto;
-    max-width: 1140px;
-    box-sizing: border-box;
-}
-
-.main {
-    background-color: blue;
+  margin: 0 auto;
+  max-width: 1140px;
+  box-sizing: border-box;
+  background-color: blue;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .padding {
-    padding: 32px 0;
+  padding: 32px 0;
 }
 
 p {
-    text-transform: capitalize;
-    font-size: 1.8rem;
-    color: white;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  color: white;
 }
 
 input[type="text"] {
-    width: 40%;
-    padding: 1rem;
-    margin-top: 2.5rem;
-    outline: 0;
+  width: 40%;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  outline: 0;
+  border: 1px solid gainsboro;
+  font-size: 1rem;
 }
 
 .btn {
-    padding: 1rem;
-    margin-top: 2.5rem;
-    margin-left: -0.3rem;
-    outline: none;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  margin-left: -0.3rem;
+  outline: none;
+  border: 1px solid gainsboro;
+  font-size: 16px;
+  background-color: rgb(236, 236, 236);
+  text-transform: uppercase;
+  color: thistle;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+}
+
+.user_profile {
+  width: 54%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 20px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+li {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  color: white;
+  padding: 0.6rem 0;
+  font-weight: 600;
+  word-spacing: 1;
 }
